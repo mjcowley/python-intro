@@ -39,7 +39,7 @@ This guide is for you if you're new to Python, or haven't used it in a while. Re
 
 You'll need a Google account and a modern web browser (Chrome, Firefox, Edge or Safari).
 
-1. **Open the README** at <https://github.com/mjcowley/Python_Intro> and click the **Open in Colab** button next to Part 1.
+1. **Open the README** at <https://github.com/mjcowley/python-intro> and click the **Open in Colab** button next to Part 1.
 2. **Sign in** to Google if Colab asks you to.
 3. **Save your own copy.** Go to *File → Save a copy in Drive*. A new tab opens with a copy named "Copy of 01-Python-Basics.ipynb". **Work in this copy.** Anything you do in the original isn't saved.
 4. **Run the first code cell.** Click inside it and press **Shift + Enter**. The first time, Colab takes a few seconds to start up, and may warn you that the notebook was not written by Google. Click **Run anyway**: it comes from this training.
@@ -204,11 +204,11 @@ Answer `y` if asked to proceed. Your prompt now starts with `(qarg)`, which mean
 
 ### Step 3: Download the training and install the packages
 
-1. On the [GitHub page](https://github.com/mjcowley/Python_Intro), click the green **Code** button, then **Download ZIP**, and unzip it somewhere you'll find it, such as your Documents folder. (If you already use git, `git clone https://github.com/mjcowley/Python_Intro.git` does the same thing.)
-2. In your terminal, move into that folder with `cd`, for example:
+1. On the [GitHub page](https://github.com/mjcowley/python-intro), click the green **Code** button, then **Download ZIP**, and unzip it somewhere you'll find it, such as your Documents folder. (If you already use git, `git clone https://github.com/mjcowley/python-intro.git` does the same thing.)
+2. In your terminal, move into that folder with `cd`, for example (if you downloaded the ZIP, the folder is called `python-intro-main`):
 
    ```bash
-   cd Documents/Python_Intro
+   cd Documents/python-intro
    ```
 
 3. Install the packages and start JupyterLab:
@@ -224,7 +224,7 @@ JupyterLab opens in your web browser. Double-click a notebook in the file list o
 
 ```bash
 conda activate qarg
-cd Documents/Python_Intro
+cd Documents/python-intro
 jupyter lab
 ```
 
