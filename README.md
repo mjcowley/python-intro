@@ -22,12 +22,12 @@ Each notebook is self-contained, so you can start any without running the previo
 
 | Part | Notebook | Topic | Time |
 |------|----------|-------|------|
-| 1 | [Python Basics](01-Python-Basics.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/Python_Intro/blob/main/01-Python-Basics.ipynb) | Variables, data types, strings, lists, dictionaries, conditions, loops, functions and errors | ~3 h |
-| 2 | [NumPy and Astropy](02-NumPy-and-Astropy.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/Python_Intro/blob/main/02-NumPy-and-Astropy.ipynb) | Arrays, masks, missing data, 2D images, units, constants and cosmology | ~3 h |
-| 3 | [Catalogues and Data](03-Catalogues-and-Data.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/Python_Intro/blob/main/03-Catalogues-and-Data.ipynb) | pandas, missing data and flags, CSV, text and FITS files, merging, FITS images and WCS, astroquery and cross-matching, using real ZFOURGE data | ~3 h |
-| 4 | [Plotting for Astronomy](04-Plotting-for-Astronomy.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/Python_Intro/blob/main/04-Plotting-for-Astronomy.ipynb) | Matplotlib figures and axes, log axes, histograms, crowded scatter plots, error bars, multi-panel UVJ diagrams, images with WCS, and making good figures | ~3 h |
-| 5 | [Statistics and Fitting](05-Statistics-and-Fitting.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/Python_Intro/blob/main/05-Statistics-and-Fitting.ipynb) | Robust statistics and photo-z quality, error propagation, weighted means and tension, curve fitting and χ², measuring H₀ and dark energy with Pantheon+ supernovae, KS tests and the bootstrap | ~3 h |
-| 6 | [Putting It Together](06-Putting-It-Together.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/Python_Intro/blob/main/06-Putting-It-Together.ipynb) | Three short projects (the stellar mass function, large-scale structure in CDFS, and the ages of galaxies) plus tips on working in the group | ~2 h |
+| 1 | [Python Basics](01-Python-Basics.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/python-intro/blob/main/01-Python-Basics.ipynb) | Variables, data types, strings, lists, dictionaries, conditions, loops, functions and errors | ~3 h |
+| 2 | [NumPy and Astropy](02-NumPy-and-Astropy.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/python-intro/blob/main/02-NumPy-and-Astropy.ipynb) | Arrays, masks, missing data, 2D images, units, constants and cosmology | ~3 h |
+| 3 | [Catalogues and Data](03-Catalogues-and-Data.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/python-intro/blob/main/03-Catalogues-and-Data.ipynb) | pandas, missing data and flags, CSV, text and FITS files, merging, FITS images and WCS, astroquery and cross-matching, using real ZFOURGE data | ~3 h |
+| 4 | [Plotting for Astronomy](04-Plotting-for-Astronomy.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/python-intro/blob/main/04-Plotting-for-Astronomy.ipynb) | Matplotlib figures and axes, log axes, histograms, crowded scatter plots, error bars, multi-panel UVJ diagrams, images with WCS, and making good figures | ~3 h |
+| 5 | [Statistics and Fitting](05-Statistics-and-Fitting.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/python-intro/blob/main/05-Statistics-and-Fitting.ipynb) | Robust statistics and photo-z quality, error propagation, weighted means and tension, curve fitting and χ², measuring H₀ and dark energy with Pantheon+ supernovae, KS tests and the bootstrap | ~3 h |
+| 6 | [Putting It Together](06-Putting-It-Together.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/python-intro/blob/main/06-Putting-It-Together.ipynb) | Three short projects (the stellar mass function, large-scale structure in CDFS, and the ages of galaxies) plus tips on working in the group | ~2 h |
 
 From Part 3 onwards the notebooks use real survey data, which they download automatically. See the [data README](data/README.md) for where this comes from. The notebooks download their own copies of the data from this repository, so they don't depend on the original archives being online. The one exception is Part 3's demonstration of querying an archive live: if a service such as VizieR is down, that cell prints a message and the notebook carries on. If GitHub itself can't be reached, the downloads will fail, so try again later. Every notebook pairs worked examples with exercises, which have hidden solutions so you can check your working as you go.
 
@@ -54,8 +54,8 @@ For Honours, MPhil or PhD, you're encouraged to set up Python locally. We recomm
 3. Download this repository, either with *Code → Download ZIP* on GitHub or with git:
 
    ```bash
-   git clone https://github.com/mjcowley/Python_Intro.git
-   cd Python_Intro
+   git clone https://github.com/mjcowley/python-intro.git
+   cd python-intro
    ```
 
 4. Install the packages and start JupyterLab:
@@ -94,6 +94,6 @@ Colab has most of these already, and any notebook that needs something extra ins
 * **Code** (the code cells in the notebooks) is licensed under the [MIT License](LICENSE-CODE).
 * **Not covered by these licences:** the QUT, QARG and Google Colab logos, and the survey data in `data/` (credited in [data/README.md](data/README.md)), which stay under their owners' terms.
 
-You're welcome to reuse and adapt these materials. Please credit them as: *Introduction to Python for Astronomy by Michael Cowley, QUT Astrophysics Research Group, © Queensland University of Technology, CC BY 4.0, github.com/mjcowley/Python_Intro*.
+You're welcome to reuse and adapt these materials. Please credit them as: *Introduction to Python for Astronomy by Michael Cowley, QUT Astrophysics Research Group, © Queensland University of Technology, CC BY 4.0, github.com/mjcowley/python-intro*.
 
 **Use of AI:** These materials were developed by Dr Michael Cowley with the assistance of Claude, an AI model made by Anthropic.
